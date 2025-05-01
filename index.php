@@ -15,7 +15,7 @@ $Organizr = new Organizr(true);
 	<?php echo $Organizr->favIcons(); ?>
     <title><?php echo $Organizr->config['title']; ?></title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="application-name" content="<?php echo $Organizr->config['title']; ?>">
     <meta name="apple-mobile-web-app-title" content="<?php echo $Organizr->config['title']; ?>">
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
